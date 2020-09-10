@@ -1,0 +1,82 @@
+.videoSidebar {
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    color: white;
+}
+
+.videoSidebar__button {
+    padding: 20px;
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .videoSidebar {
+        top: 50%;
+        right: 10px;
+    }
+}
+
+@media(width: 540px) {
+    .videoSidebar {
+        top: 35%;
+        right: 10px;
+    }
+}
+
+@media(max-width: 414px) {
+    .videoSidebar {
+        top: 35%;
+        right: 10px;
+    }
+}
+
+@media(max-width: 411px) {
+    .videoSidebar {
+        top: 35%;
+        right: 10px;
+    }
+}
+
+@media(max-width: 375px) {
+    .videoSidebar {
+        top: 35%;
+        right: 10px;
+    }
+}
+
+@media(max-width: 360px) {
+    .videoSidebar {
+        top: 35%;
+        right: 10px;
+    }
+}
+
+@media(max-width: 320px) {
+    .videoSidebar {
+        top: 5%;
+        right: 10px;
+    }
+}
+
+@media(max-height: 746px) {
+    .app__videos {
+        height: 600px;
+        /* width: 45%;
+        max-width: 370px; */
+    }
+}
+
+@media(max-height: 650px) {
+    .videoSidebar {
+        top: 30%;
+        right: 10px;
+    }
+}
+
+@media(max-height: 600px) {
+    .videoSidebar {
+        top: 30%;
+        right: 10px;
+    }
+}

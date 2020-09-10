@@ -1,0 +1,109 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+
+.app {
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.app__videos {
+    position: relative;
+    height: 700px;
+    width: 50%;
+    max-width: 400px;
+    border-radius: 20px;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.app__videos::-webkit-scrollbar {
+    display: none;
+}
+
+.app__videos {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@media(max-width: 1024px) {
+    .app__videos {
+        height: 1200px;
+        width: 70%;
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 768px) {
+    .app__videos {
+        height: 800px;
+        width: 60%;
+        max-width: 600px;
+    }
+}
+
+@media(width: 540px) {
+    .app__videos {
+        height: 700px;
+        width: 60%;
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 414px) {
+    .app__videos {
+        height: 600px;
+        width: 80%;
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 411px) {
+    .app__videos {
+        height: 750px;
+        width: 80%;
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 375px) {
+    .app__videos {
+        height: 650px;
+        width: 85%;
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 360px) {
+    .app__videos {
+        height: 600px;
+        width: 90%;
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 320px) {
+    .app__videos {
+        height: 550px;
+        width: 80%;
+        max-width: 450px;
+    }
+}
+
+@media(max-height: 746px) {
+    .app__videos {
+        height: 600px;
+        /* width: 45%;
+        max-width: 370px; */
+    }
+}
+
+@media(max-height: 600px) {
+    .app__videos {
+        height: 400px;
+        /* width: 35%;
+        max-width: 250px; */
+    }
+}
