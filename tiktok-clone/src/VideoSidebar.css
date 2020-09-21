@@ -65,6 +65,9 @@
         /* width: 45%;
         max-width: 370px; */
     }
+    .videoSidebar {
+        top: 37%;
+    }
 }
 
 @media(max-height: 650px) {
