@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use(cors());
 
-
+// deprecated, just example, should be a environment variable
 //db config
 const connection_url = 'mongodb+srv://admin:tbO4ypqUyGMXzm9E@cluster0.h4wsz.mongodb.net/tiktok?retryWrites=true&w=majority';
 
