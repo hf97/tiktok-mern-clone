@@ -1,5 +1,4 @@
-# tiktok-mern-clone
-Tiktok mern clone 
+# Tiktok mern clone 
 
 ![Demo](https://github.com/hf97/tiktok-mern-clone/blob/master/demo/demo.gif)
 
